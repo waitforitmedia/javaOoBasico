@@ -6,6 +6,7 @@ public class EjemploPerro {
         fido.nombre = "Fido";
         fido.raza = "Gran Danes";
         fido.tamanio = 45.0;
+        fido.sexo = 'm';
 
         fido.ladrar();
         fido.correr();
@@ -14,6 +15,7 @@ public class EjemploPerro {
         libs.Input.print("Nombre " + fido.nombre + "\n");
         libs.Input.print("Raza " +fido.raza + "\n");
         libs.Input.print("Tamaño " + fido.tamanio + "\n");
+        libs.Input.print("Sexo " + fido.sexo + "\n");
 
     }
 }
