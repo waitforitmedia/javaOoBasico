@@ -21,6 +21,9 @@ public class Perro {
     public void morir() {}
     public void morder() {}
     public void llorar() {}
-    public void tomarAgua() {}
+    public void beber(String bebida) {
+        System.out.println(bebida);
+
+    }
 
 }
