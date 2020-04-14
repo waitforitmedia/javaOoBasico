@@ -4,7 +4,7 @@ import com.testAutomationCoach.aAbstraccion.Cancion;
 
 public class AsignacionReferencia {
     public static void main(String[] args) {
-        //cuantas referencias hay? cuantos objetos?
+        //cuantas referencias hay? cuantos objetos? 1, 2
         Cancion elTriste = new Cancion();
         Cancion almohada = new Cancion();
         Cancion x = elTriste;

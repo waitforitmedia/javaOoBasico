@@ -13,7 +13,7 @@ class Hobbit {
         int z = 0;
 
 
-        while (z < 4) {
+        if (z < 4) {
             z = z + 1;
             h[z] = new Hobbit();
             h[z].name = "bilbo";
