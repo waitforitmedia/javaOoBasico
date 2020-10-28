@@ -7,7 +7,7 @@ public class Triangulo {
 	private int altura;
 	
 	public Triangulo(int base, int altura) {
-		this.base = base;
+		this.base = base; // que hace el this?
 		this.altura = altura;
 	}
 	

@@ -35,12 +35,26 @@ Si el usuario introduce la posicion 5, el tablero quedaria asi:
 L  N  N  N  N  L  L  L  L  L
 0  1  2  3  4  5  6  7  8  9
 
-puesto que golpeo en una posicion Libre.
+               puesto que golpeo en una posicion Libre.
 
-Sin embargo, si el usuario bombardea la posicion 1, el tablero quedaria asi:
+               Sin embargo, si el usuario bombardea la posicion 1, el tablero quedaria asi:
 
-L  X  N  N  L  L  L  L  L
-0  1  2  3  4  5  6  7  8  9
+               L  X  N  N  L  L  L  L  L
+               0  1  2  3  4  5  6  7  8  9
 
-y se contabilizaria un golpe.  El objetivo es seguir pidiendole al usuario
-que adivine donde bombardear hasta que se hunda la nave.
+               y se contabilizaria un golpe.  El objetivo es seguir pidiendole al usuario
+               que adivine donde bombardear hasta que se hunda la nave.
+
+
+               CampoBatalla
+               atributos
+
+               listaPosiciones
+               contadorGolpes
+               contadorPosiciones
+
+               golpearPosicion(numeroPosicion)
+
+               pedirPosicion()
+
+               hayGanador()

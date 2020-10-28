@@ -11,6 +11,7 @@ public class Automovil {
 	private String tipoDeTransmision;
 	private int numDePuertas;
 	private int numDeLlantas;
+	private int litrosGasolina;
 	
 	Automovil() {
 		marca = "Ford";
@@ -31,6 +32,8 @@ public class Automovil {
 	}
 	//comportamiento
 	public void acelerar() {
+
+		//if(litrosGasolina > 0)
 		Input.print("run run\n");
 		this.velocidadActual += 5.0;
 	}

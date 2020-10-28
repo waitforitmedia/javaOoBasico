@@ -4,3 +4,8 @@ b) Colocar comentarios sobre cada linea para indicar que hace
 
 2.
 Crear versiones de programas anteriores utilizando encapsulacion.
+
+en la clase carro Reproductior de automovil
+Cuando acelera decir cial va revoluciones
+nivel de gazolina en el carro
+frenar con motor gasta mas gazolina
